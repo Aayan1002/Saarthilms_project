@@ -1,11 +1,13 @@
-import React from 'react';
-import Counter from './Counter';
+import React from "react";
+import RegistrationForm from "./RegistrationForm";
+import "./App.css";
 
 function App() {
   return (
-    <div style={{ textAlign: "center", marginTop: "40px" }}>
-      <h1>Counter App by Aayan</h1>
-      <Counter />
+    <div className="app-container">
+      <h1>React Complete Form</h1>
+      <p>Fill the form below and submit:</p>
+      <RegistrationForm />
     </div>
   );
 }

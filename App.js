@@ -1,15 +1,8 @@
-import React from "react";
-import RegistrationForm from "./RegistrationForm";
-import "./App.css";
+import React from 'react';
+import EventBind from './EventBind';
 
 function App() {
-  return (
-    <div className="app-container">
-      <h1>React Complete Form</h1>
-      <p>Fill the form below and submit:</p>
-      <RegistrationForm />
-    </div>
-  );
+  return <EventBind />;
 }
 
 export default App;
